@@ -1,5 +1,5 @@
 import { InMemoryNotificationsRepository } from '../../../../../test/repositories/in-memory-notifications.repository';
-import { CancelNotification } from './cancel-notifications';
+import { CancelNotification } from '../use-cases/cancel-notifications';
 import { NotificationNotFound } from '../errors/notification-not-found.error';
 import { makeNotification } from '../../../../../test/factories/notification-factory';
 
