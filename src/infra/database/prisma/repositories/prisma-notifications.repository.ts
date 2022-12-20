@@ -14,4 +14,13 @@ export class PrismaNotificationsRepository implements NotificationsRepository {
       data: raw,
     });
   }
+
+  async findByID(notificationId: string): Promise<Notification> {
+    // const notification = await this.prisma.notification.findFirst({ where: { id: notificationId } });
+    // return notification]
+    throw new Error('Method not implemented.');
+  }
+  async update(notification: Notification): Promise<void> {
+    throw new Error('Method not implemented.');
+  }
 }
